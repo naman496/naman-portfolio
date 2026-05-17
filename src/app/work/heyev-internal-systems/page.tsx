@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Navbar from "@/components/Navbar";
+import WorkflowTransformation from "@/components/case-study/WorkflowTransformation";
 
 export default function HeyEVInternalSystemsCaseStudy() {
   return (
@@ -110,6 +111,8 @@ export default function HeyEVInternalSystemsCaseStudy() {
           </div>
         </div>
       </section>
+
+      <WorkflowTransformation />
 
       <section className="animate-fade-in mx-auto max-w-6xl px-6 py-20">
         <div className="space-y-16">
