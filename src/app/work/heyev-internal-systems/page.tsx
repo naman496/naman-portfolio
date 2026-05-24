@@ -209,7 +209,7 @@ export default function HeyEVInternalSystemsCaseStudy() {
             </h2>
           </div>
 
-          <div className="mt-10 relative border-l border-slate-200 pl-8 md:pl-14 space-y-10">
+          <div className="mt-10 grid gap-8 md:gap-12 md:grid-cols-2">
             {[
               {
                 title: "Stakeholder Discovery",
@@ -262,11 +262,11 @@ export default function HeyEVInternalSystemsCaseStudy() {
                   "Refine the system with regular feedback loops and expand the solution to adjacent processes.",
               },
             ].map((step, index) => (
-              <div key={step.title} className="relative">
-                <div className="absolute left-0 top-0 flex h-8 w-8 items-center justify-center rounded-full bg-slate-950 text-sm font-semibold text-white">
+              <div key={step.title} className="flex gap-4">
+                <div className="flex h-8 w-8 flex-shrink-0 items-center justify-center rounded-full bg-slate-950 text-sm font-semibold text-white">
                   {index + 1}
                 </div>
-                <div className="space-y-2 pl-12">
+                <div className="space-y-2">
                   <h3 className="text-lg font-semibold text-slate-950">
                     {step.title}
                   </h3>
