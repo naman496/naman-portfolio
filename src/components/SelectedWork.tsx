@@ -4,8 +4,8 @@ const projects = [
   {
     title: "HeyEV Internal Systems",
     description:
-      "Designed workflow-driven systems for loan management, inventory tracking, and servicing operations by collaborating with stakeholders, developers, and operations teams.",
-    tags: ["Workflow", "Operations", "Collaboration"],
+      "Led workflow transformation for inventory, service operations, and stakeholder alignment to deliver an MVP that improved operational readiness and execution.",
+    tags: ["Workflow Mapping", "Stakeholder Discovery", "MVP Rollout"],
     href: "/work/heyev-internal-systems",
   },
   {
@@ -34,7 +34,7 @@ export default function SelectedWork() {
             Selected Work
           </p>
           <h2 className="mt-4 text-3xl font-semibold tracking-tight text-slate-950 sm:text-4xl">
-            Product work grounded in systems, operations, and real execution.
+            Case studies that highlight workflow design, stakeholder collaboration, and operational execution.
           </h2>
         </div>
 

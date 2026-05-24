@@ -8,13 +8,29 @@ type ProjectCardProps = {
 };
 
 export default function ProjectCard({ title, description, tags, href }: ProjectCardProps) {
-  const cardClasses =
-    "group block h-full rounded-[28px] border border-gray-200 bg-white p-6 shadow-sm transition-all duration-300 ease-out hover:-translate-y-1 hover:shadow-md";
+  const hasCaseStudy = Boolean(href);
+
+  const cardClasses = hasCaseStudy
+    ? "group block h-full rounded-[28px] border border-gray-200 bg-white p-6 shadow-sm transition-all duration-300 ease-out hover:-translate-y-1 hover:border-slate-300 hover:shadow-md cursor-pointer"
+    : "block h-full rounded-[28px] border border-gray-200 bg-white p-6 shadow-sm";
+
+  const footer = hasCaseStudy ? (
+    <div className="mt-8 flex items-center justify-between text-sm text-slate-500 transition-colors duration-200 group-hover:text-slate-700">
+      <span>View Case Study</span>
+      <span className="inline-block transition-transform duration-200 group-hover:translate-x-1">
+        →
+      </span>
+    </div>
+  ) : (
+    <div className="mt-8 text-sm uppercase tracking-[0.18em] text-slate-400">
+      Case Study Coming Soon
+    </div>
+  );
 
   const content = (
     <div className="flex h-full flex-col">
       <div className="flex-1">
-        <h3 className="text-xl font-semibold text-slate-950 transition group-hover:text-slate-900">
+        <h3 className={`text-xl font-semibold text-slate-950 ${hasCaseStudy ? "transition group-hover:text-slate-900" : ""}`}>
           {title}
         </h3>
 
@@ -31,6 +47,8 @@ export default function ProjectCard({ title, description, tags, href }: ProjectC
           </span>
         ))}
       </div>
+
+      {footer}
     </div>
   );
 
