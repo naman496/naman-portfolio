@@ -13,6 +13,15 @@ export const metadata = {
     title: "Naman Jain — Product Analyst Portfolio",
     description:
       "Early-career Product Analyst focused on operational transformation, workflow-driven systems, and stakeholder-led product delivery.",
+    url: "https://naman-portfolio-lake.vercel.app",
+    siteName: "Naman Jain Portfolio",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+      },
+    ],
     type: "website",
   },
 };
