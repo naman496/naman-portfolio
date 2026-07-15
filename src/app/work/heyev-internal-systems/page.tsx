@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Navbar from "@/components/Navbar";
-import WorkflowTransformation from "@/components/case-study/WorkflowTransformation";
 
 export const metadata: Metadata = {
   title: "HeyEV Internal Systems — Product Analyst Case Study",
@@ -162,7 +161,7 @@ export default function HeyEVInternalSystemsCaseStudy() {
         </div>
       </section>
 
-      <section className="animate-fade-in mx-auto max-w-6xl px-6 py-20">
+      <section className="animate-fade-in mx-auto max-w-6xl px-6 py-20 bg-white border-t border-gray-200">
         <div className="max-w-3xl">
           <p className="text-sm uppercase tracking-[0.24em] text-slate-500">
             Before vs After
@@ -465,107 +464,7 @@ export default function HeyEVInternalSystemsCaseStudy() {
         </div>
       </section>
 
-      <WorkflowTransformation />
-
-      <section className="animate-fade-in mx-auto max-w-6xl px-6 py-20">
-        <div className="space-y-16">
-          <article className="grid gap-12 lg:grid-cols-[1.1fr_0.9fr] lg:items-start">
-            <div>
-              <h2 className="text-2xl font-semibold text-slate-950">
-                Workflow & systems thinking
-              </h2>
-              <p className="mt-4 max-w-3xl leading-8 text-slate-600">
-                The approach was rooted in workflow mapping and systems design.
-                Rather than chase an ideal system, the goal was to identify
-                bottlenecks, clarify handoffs, and define the smallest useful
-                version of a centralized operational tool.
-              </p>
-            </div>
-            <div className="rounded-3xl border border-gray-200 bg-white p-8 shadow-sm">
-              <p className="text-sm uppercase tracking-[0.24em] text-slate-500">
-                Workflow output
-              </p>
-              <p className="mt-4 leading-7 text-slate-700">
-                Flow diagrams, step-by-step process maps, and clearly defined
-                operational states shaped a system that could support loan,
-                inventory, and servicing teams consistently.
-              </p>
-            </div>
-          </article>
-
-          <article className="grid gap-12 lg:grid-cols-[1.1fr_0.9fr] lg:items-start">
-            <div>
-              <h2 className="text-2xl font-semibold text-slate-950">
-                Collaboration with engineering
-              </h2>
-              <p className="mt-4 max-w-3xl leading-8 text-slate-600">
-                Development collaboration centered on feasibility checks,
-                implementation constraints, and knowledge transfer. Regular KT
-                sessions kept the team aligned and helped shape a reliable
-                scope for the first release.
-              </p>
-            </div>
-            <div className="rounded-3xl border border-gray-200 bg-white p-8 shadow-sm">
-              <p className="text-sm uppercase tracking-[0.24em] text-slate-500">
-                Engineering alignment
-              </p>
-              <p className="mt-4 leading-7 text-slate-700">
-                Shared wireframes, review sessions, and developer walkthroughs
-                ensured the MVP matched both user workflows and technical
-                delivery cadence.
-              </p>
-            </div>
-          </article>
-
-          <article className="grid gap-12 lg:grid-cols-[1.1fr_0.9fr] lg:items-start">
-            <div>
-              <h2 className="text-2xl font-semibold text-slate-950">
-                MVP rollout strategy
-              </h2>
-              <p className="mt-4 max-w-3xl leading-8 text-slate-600">
-                The launch was intentionally phased: validate the core workflow,
-                capture user feedback early, and iterate before expanding to
-                adjacent processes. This kept the first release focused and
-                operationally useful.
-              </p>
-            </div>
-            <div className="rounded-3xl border border-gray-200 bg-white p-8 shadow-sm">
-              <p className="text-sm uppercase tracking-[0.24em] text-slate-500">
-                Phased delivery
-              </p>
-              <p className="mt-4 leading-7 text-slate-700">
-                Initial focus areas included loan status tracking, inventory
-                visibility, and service task coordination with clear handoff
-                points.
-              </p>
-            </div>
-          </article>
-
-          <article className="grid gap-12 lg:grid-cols-[1.1fr_0.9fr] lg:items-start">
-            <div>
-              <h2 className="text-2xl font-semibold text-slate-950">
-                Testing & UAT
-              </h2>
-              <p className="mt-4 max-w-3xl leading-8 text-slate-600">
-                Testing was integrated into the rollout plan. User acceptance
-                testing, bug reporting, and live feedback sessions helped refine
-                flows before wider adoption.
-              </p>
-            </div>
-            <div className="rounded-3xl border border-gray-200 bg-white p-8 shadow-sm">
-              <p className="text-sm uppercase tracking-[0.24em] text-slate-500">
-                Validation process
-              </p>
-              <p className="mt-4 leading-7 text-slate-700">
-                Validation included operational walkthroughs, issue tracking,
-                and iterative updates based on frontline user feedback.
-              </p>
-            </div>
-          </article>
-        </div>
-      </section>
-
-      <section className="animate-fade-in border-t border-gray-200 bg-[#F8F9FB]">
+      <section className="animate-fade-in border-t border-gray-200 bg-white">
         <div className="mx-auto max-w-6xl px-6 py-20">
           <div className="grid gap-12 lg:grid-cols-2">
             <div className="space-y-6">
