@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     siteName: "Naman Jain Portfolio",
     images: [
       {
-        url: "/Og-image.png",
+        url: "/og-image.png",
         width: 1200,
         height: 630,
       },
