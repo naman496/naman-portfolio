@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://naman-portfolio-lake.vercel.app"), // add this line
+  metadataBase: new URL("https://naman-portfolio-lake.vercel.app"),
   title: "Naman Jain — Product Analyst",
   description:
     "Product Analyst portfolio showcasing operational systems, workflow design, and stakeholder-led product delivery.",
@@ -21,11 +21,11 @@ export const metadata: Metadata = {
     title: "Naman Jain — Product Analyst",
     description:
       "Product Analyst portfolio showcasing operational systems, workflow design, and stakeholder-led product delivery.",
-    url: "https://naman-portfolio-lake.vercel.app", // add this
-    siteName: "Naman Jain Portfolio", // add this
+    url: "https://naman-portfolio-lake.vercel.app",
+    siteName: "Naman Jain Portfolio",
     images: [
       {
-        url: "/og-image.png", // add this whole images array
+        url: "/Og-image.png",
         width: 1200,
         height: 630,
       },
